@@ -33,6 +33,7 @@ struct WeatherView: View {
                         }
                     }
                 }
+                .padding()
                 .navigationBarTitle("Weather Forecast", displayMode: .automatic)
             }
         }
